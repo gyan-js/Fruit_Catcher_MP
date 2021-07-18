@@ -5,28 +5,30 @@
   <script src="matter.js"></script>
   <script src="p5.play.js"></script>
   <!-- The core Firebase JS SDK is always required and must be listed first -->
-  <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-database.js"></script>
-  <!-- TODO: Add SDKs for Firebase products that you want to use
-       https://firebase.google.com/docs/web/setup#available-libraries -->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyC8kvekD0E7eaQQJkSvz6MSAS5xwQizbxI",
+    authDomain: "fruit-catcher-80995.firebaseapp.com",
+    databaseURL: "https://fruit-catcher-80995-default-rtdb.firebaseio.com",
+    projectId: "fruit-catcher-80995",
+    storageBucket: "fruit-catcher-80995.appspot.com",
+    messagingSenderId: "637495946824",
+    appId: "1:637495946824:web:dd7bd08d3b92da8ea1327d",
+    measurementId: "G-1ME656DHEE"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
   
-       <script>
-        // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-        var firebaseConfig = {
-          apiKey: "AIzaSyDgnxzCwOmBQtFB2o4d7PYunBsK2uNVNUI",
-          authDomain: "fruit-game-ad5cd.firebaseapp.com",
-          databaseURL: "https://fruit-game-ad5cd.firebaseio.com",
-          projectId: "fruit-game-ad5cd",
-          storageBucket: "fruit-game-ad5cd.appspot.com",
-          messagingSenderId: "945306240865",
-          appId: "1:945306240865:web:582d97210c15e9c9a9e720",
-          measurementId: "G-69PGYY6RKF"
-        };
-        // Initialize Firebase
-        firebase.initializeApp(firebaseConfig);
-       
-      </script>
+</script>
 
   <!--Add Your JS files here -->
   <script src="game.js"></script>
